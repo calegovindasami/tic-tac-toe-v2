@@ -1,16 +1,28 @@
+* {
+  max-width: 100%;
+}
+body {
+  margin: 0px;
+  max-width: 100%;
+}
+
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
+  gap: 20px;
 }
 .gameboard {
   display: flex;
   width: 426px;
-  height: 420px;
+  height: 426px;
+  margin: 0px;
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
 }
 
 .field {
@@ -22,4 +34,10 @@
 .field:hover {
   background-color: gray;
   cursor: pointer;
+}
+
+.player-turn {
+  font-size: 32px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
