@@ -6,16 +6,16 @@
 }
 .gameboard {
   display: flex;
-  width: 60vh;
-  height: 60vh;
+  width: 426px;
+  height: 420px;
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .field {
-  width: 19.7vh;
-  height: 19.79vh;
+  width: 140px;
+  height: 140px;
   border: 1px solid black;
 }
 
