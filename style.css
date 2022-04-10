@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.gameboard {
+  display: flex;
+  width: 60vh;
+  height: 60vh;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  width: 19.7vh;
+  height: 19.79vh;
+  border: 1px solid black;
+}
+
+.field:hover {
+  background-color: gray;
+  cursor: pointer;
+}
