@@ -1,27 +1,34 @@
 * {
-  max-width: 100%;
-}
-body {
   margin: 0px;
   max-width: 100%;
+}
+
+.header {
+  border: 1px solid black;
+  height: 10vh;
 }
 
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   flex-direction: column;
   gap: 20px;
 }
-.gameboard {
+
+.footer {
   display: flex;
-  width: 426px;
-  height: 426px;
-  margin: 0px;
-  flex-flow: wrap;
+  height: 10vh;
   justify-content: center;
   align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   border: 2px solid black;
 }
 
